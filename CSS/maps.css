@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "VALORANT";
+    src: url('../Fonts/ValorantFont.ttf');
+}
+
+@font-face {
+    font-family: 'ANON';
+    src: url('../Fonts/Anonymous_Pro.ttf');
+}
+
+@font-face {
+    font-family: 'CondLight';
+    src: url("../Fonts/OpenSans-CondLightItalic.ttf");
+}
+@font-face{
+    font-family:'Cuprum';
+    src:url("../Fonts/Cuprum-Regular.ttf");
+}

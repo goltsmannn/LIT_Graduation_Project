@@ -1,0 +1,306 @@
+@font-face {
+    font-family: "VALORANT";
+    src: url('../Fonts/ValorantFont.ttf');
+}
+
+@font-face {
+    font-family: 'ANON';
+    src: url('../Fonts/Anonymous_Pro.ttf');
+}
+
+@font-face {
+    font-family: 'CondLight';
+    src: url("../Fonts/OpenSans-CondLightItalic.ttf");
+}
+
+@font-face {
+    font-family: 'ANON';
+    src: url('../Fonts/Anonymous_Pro.ttf');
+}
+
+body {
+    background-color: rgb(237, 233, 226);
+    margin: auto;
+}
+
+#preloader {
+    background-color: rgb(15, 25, 35);
+    display: block;
+    width: 100%;
+    height: 1000%;
+    z-index: 1000;
+    opacity: 1;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+#loader {
+    position: fixed;
+    display: block;
+    opacity: 0.8;
+    transition-property: all;
+    transition-duration: 0.2s;
+    border: 1px solid#f36;
+}
+
+.beginning {
+
+    top: 47%;
+    left: 47%;
+    width: 6%;
+    height: 6%;
+    z-index: 1001;
+}
+
+.ended {
+    top: 46%;
+    left: 46%;
+    width: 8%;
+    height: 8%;
+}
+
+
+#toup{
+    position:fixed;
+    right:5%;
+    bottom:15%;
+    z-index:100001;
+    box-shadow:0px 0px 5px 5px #64040c;
+    background-color:#ff4454;
+    font-family: "ANON";
+    font-size:15px;
+    font-weight:700;
+    opacity:0;
+    transition:opacity 1s;
+    width:5%;
+    height:5%;
+    border-radius:25%;
+}
+
+.hidden{
+    opacity:0;
+    display:none !important;
+    z-index:-1000;
+}
+
+#leftpic {
+    margin: 100px 0px 0px 0px;
+    left: 0.9%;
+    bottom:0.3%;
+    position: fixed;
+    float: left;
+    background: url("../Images/Chroma/leftpicture.png");
+    background-size: cover;
+    width: 17%;
+    height: 50%;
+    z-index:10001;
+}
+
+#rightpic {
+    bottom:0.3%;
+    margin: 100px 0px 0px 0px;
+    right: 0.9%;
+    float: right;
+    position: fixed;
+    z-index:10001;
+    width: 17%;
+    background: url("../Images/Chroma/rightpicture.png");
+    background-size: cover;
+    height: 50%;
+}
+
+
+
+.article {
+    width: 64%;
+    margin-left: 17.9%;
+    margin-right: 17.9%;
+    box-sizing: border-box;
+    margin-bottom: 25%;
+}
+
+.article #introduction1,
+.article #introduction2,
+.article #introduction3 {
+    width: 100%;
+}
+
+.article #introduction1 .textpart p,
+#introduction2 .textpart p,
+#introduction3 .textpart p {
+    width: 100%;
+}
+
+.article #introduction1 .pic img,
+#introduction2 .pic2 img {
+    width: 100%;
+}
+
+.article #introduction2 .pic1 img,
+.pic2 img,
+.pic3 img {
+    width: 100%;
+
+}
+
+#introduction2 .pic1,
+.pic2,
+.pic3 {
+    display: inline-block;
+}
+
+
+
+
+.article #introduction1 .textpart {
+    text-align: left;
+    width: 49%;
+    height: 100%;
+    float: left;
+    margin: 0% 2% 2.9% 2%;
+}
+
+#introduction1 .pic {
+    width: 45%;
+    float: right;
+    box-sizing: border-box;
+    margin: 2% 2% 2% 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+#introduction2 .textpart {
+    padding: 3% 5%;
+    width: 90%;
+}
+
+#introduction2 .textpart p {
+    text-align: center;
+}
+
+
+#introduction2 .pic1 {
+    float: left;
+    width: 37%;
+}
+
+.article #introduction2 .pic2 {
+    margin: 2% 0% 0% 6%;
+    width: 19%;
+
+    vertical-align: middle;
+}
+
+.article #introduction2 .pic2 img {
+    border: none;
+}
+
+#introduction2 .pic3 {
+    width: 37%;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+#introduction3 .pic4 img,
+.pic5 img {
+    width: 100%;
+}
+
+#introduction3 .textpart1 {
+    width: 47%;
+    float: right;
+    margin-right: 2%;
+}
+
+#introduction3 .textpart1 p {
+    text-align:left ;
+}
+
+#introduction3 .pic4 {
+    width: 47%;
+    float: left;
+    margin-right: 2%;
+}
+
+#introduction3 .textpart2 {
+    width: 47%;
+    float: left;
+    margin-right: 2%;
+}
+
+#introduction3 .textpart2 p {
+    text-align: left;
+}
+
+#introduction3 .pic5 {
+    float: right;
+    width: 47%;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+.h1 {
+    margin-top: 200px;
+    margin-bottom: 5%;
+    text-align: center;
+    height: 5%;
+    font-family: 'ANON';
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 400;
+    font-family: 'Cuprum';
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    font-family: 'ANON';
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+a {
+    font-family: 'Cuprum';
+
+}
+
+article img {
+    border: 1px solid #ff4454;
+}
+
+
+#allaboutme {
+    position: absolute;
+    margin-top: 15%;
+    background-color: #ff4454;
+    width: 100%;
+    height: 30%;
+}

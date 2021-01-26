@@ -1,0 +1,64 @@
+#menu {
+    color: whitesmoke;
+    background-color: rgba(265, 68, 84, 1);
+    width: 100%;
+    top: 0%;
+    height: 7%;
+    position: fixed;
+    border: 1px solid black;
+}
+.menuparts {
+    text-align: center;
+    width: 100%;
+    font-size: 26px;
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    width: 100%;
+}
+
+#highli ul {
+    padding-left: 0px;
+}
+
+#hiddenmaps {
+    width: 100%;
+}
+
+#highli {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+
+.notdisplayed {
+    display: none;
+    width: 25%;
+
+}
+
+.displayed {
+    height: 10vh;
+    position: relative;
+    transition: 2s;
+    display: block;
+}
+
+.smallmenu {
+    background-color: #ff4454;
+    display: block;
+}
+
+.smallmenu a {
+    text-decoration: none;
+    font-size: 26px;
+
+}
+
+#hiddenmaps {
+    height: 250%;
+}

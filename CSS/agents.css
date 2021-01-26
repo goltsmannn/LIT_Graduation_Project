@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "VALORANT";
+    src: url('../Fonts/ValorantFont.ttf');
+}
+
+@font-face {
+    font-family: 'ANON';
+    src: url('../Fonts/Anonymous_Pro.ttf');
+}
+
+@font-face {
+    font-family: 'CondLight';
+    src: url("../Fonts/OpenSans-CondLightItalic.ttf");
+}
+@font-face{
+    font-family:'Cuprum';
+    src:url("../Fonts/Cuprum-Regular.ttf");
+}
+
+body {
+    background-color: rgb(237, 233, 226);
+    margin:auto;
+}
+h2 {
+    font-weight: 400;
+    font-family: 'Cuprum';
+    font-size: 40px;
+    text-align: center;
+}
+p {
+    font-family: 'ANON';
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+a {
+    font-family: 'Cuprum';
+
+}
+article img {
+    border: 1px solid #ff4454;
+}
+
+
