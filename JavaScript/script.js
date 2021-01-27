@@ -17,10 +17,6 @@ targets.forEach(
         string+=target;
         document.getElementById(string).classList.remove('displayed');
         document.getElementById(string).classList.add('notdisplayed'); 
-        string = "hidden";
-             
+        string = "hidden";            
     });
 });
-
-
-

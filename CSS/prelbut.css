@@ -1,0 +1,59 @@
+#preloader {
+    display: block;
+    width: 100%;
+    height: 1000%;
+    z-index: 5;
+    opacity: 1;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+#loader {
+    position: fixed;
+    display: block;
+    opacity: 0.8;
+    z-index:6;
+    transition-property: all;
+    transition-duration: 0.2s;
+    border: 1px solid#f36;
+}
+
+.beginning {
+    top: 47%;
+    left: 47%;
+    width: 6%;
+    height: 6%;
+}
+
+.ended {
+    top: 46%;
+    left: 46%;
+    width: 8%;
+    height: 8%;
+}
+
+
+#toup{
+    position:fixed;
+    right:1%;
+    bottom:39%;
+    z-index:4;
+    box-shadow:0px 0px 5px 5px #4c0768;
+    background-image: url("../Images/Logo/bubble.png");
+    background-position: center;
+    font-family: "ANON";
+    font-size:15px;
+    font-weight:700;
+    opacity:0;
+    transition:opacity 1s;
+    width:5%;
+    height:5%;
+    border-radius:25%;
+}   
+.hidden{
+    opacity:0;
+    display:none !important;
+    z-index:-1000;
+}
+

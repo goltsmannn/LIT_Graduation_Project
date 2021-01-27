@@ -8,6 +8,9 @@
         <link href="Icon/favicon.ico" rel="shortcut icon" type="image/x-icon">
         <link rel="stylesheet" href="CSS/trainings.css">
         <link rel="stylesheet" href="CSS/menustyles.css">
+        <link rel="stylesheet" href="CSS/prelbut.css">
+        <link rel="stylesheet" href="CSS/basicstyles.css">
+        <link rel="stylesheet" href="CSS/footerstyles.css">
 
     </head>
     <header>
@@ -105,11 +108,13 @@
             <h1>Тренировки</h1>
         </div>
 
-
-        <div id="leftpic">
-        </div>
-
-        <div id="rightpic">
+        <button id="toup">Наверх?</button>
+        <button id="gotomain" onclick="location.href='index.html'">На главную?</button>
+        <div id="leftpic"></div>
+        
+        <div id="rightpic"></div>
+        <div id="preloader">
+            <img src="Images/Logo/Logo.jpg" id="loader" class="beginning">   
         </div>
 
 
@@ -120,7 +125,6 @@
                 <div class="h2">
                     <h2>Лирическое отступление</h2>
                 </div>
-
                 <div id="p">
                     <p>В любом соревновательном шутере тренироваться и практиковать игровые навыки так же важно, как и в
                         любом другом виде спорта. Ты всегда можешь получать удовольствие от игры и веселиться с
@@ -210,7 +214,7 @@
         </div>
 
     </main>
-    <script src="JavaScript/parallax.js"></script>
+    <script src="JavaScript/button.js"></script>
     <script src="JavaScript/script.js"></script>
     <script src="JavaScript/preloader.js"></script>
 </body>
