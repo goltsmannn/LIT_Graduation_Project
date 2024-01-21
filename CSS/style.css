@@ -5,30 +5,36 @@
     box-sizing: border-box;
     margin-bottom: 25%;
 }
+
 .article #introduction1,
 .article #introduction2,
 .article #introduction3 {
     width: 100%;
 }
+
 .article #introduction1 .textpart p,
 #introduction2 .textpart p,
 #introduction3 .textpart p {
     width: 100%;
 }
+
 .article #introduction1 .pic img,
 #introduction2 .pic2 img {
     width: 100%;
 }
+
 .article #introduction2 .pic1 img,
 .pic2 img,
 .pic3 img {
     width: 100%;
 }
+
 #introduction2 .pic1,
 .pic2,
 .pic3 {
     display: inline-block;
 }
+
 .article #introduction1 .textpart {
     text-align: left;
     width: 49%;
@@ -43,6 +49,7 @@
     box-sizing: border-box;
     margin: 2% 2% 2% 0%;
 }
+
 #introduction2 .textpart {
     padding: 3% 5%;
     width: 90%;
@@ -51,23 +58,28 @@
 #introduction2 .textpart p {
     text-align: center;
 }
+
 #introduction2 .pic1 {
     float: left;
     width: 37%;
 }
+
 .article #introduction2 .pic2 {
     margin: 2% 0% 0% 6%;
     width: 19%;
 
     vertical-align: middle;
 }
+
 .article #introduction2 .pic2 img {
     border: none;
 }
+
 #introduction2 .pic3 {
     width: 37%;
     float: right;
 }
+
 #introduction3 .pic4 img,
 .pic5 img {
     width: 100%;
@@ -80,7 +92,7 @@
 }
 
 #introduction3 .textpart1 p {
-    text-align:left ;
+    text-align: left;
 }
 
 #introduction3 .pic4 {
@@ -103,7 +115,4 @@
     float: right;
     width: 47%;
     margin-left: 2%;
-}
-article img {
-    border: 1px solid #ff4454;
 }

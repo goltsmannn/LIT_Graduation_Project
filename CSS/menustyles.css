@@ -7,6 +7,7 @@
     position: fixed;
     border: 1px solid black;
 }
+
 .menuparts {
     text-align: center;
     width: 100%;
@@ -36,12 +37,14 @@ ul {
 }
 
 .notdisplayed {
+    opacity: 0;
+
     display: none;
     width: 25%;
-
 }
 
 .displayed {
+    opacity: 1;
     height: 10vh;
     position: relative;
     transition: 2s;
@@ -51,12 +54,14 @@ ul {
 .smallmenu {
     background-color: #ff4454;
     display: block;
+    box-shadow: 3px 1px 5px 1px white;
+
 }
 
 .smallmenu a {
     text-decoration: none;
     font-size: 26px;
-
+    color: white;
 }
 
 #hiddenmaps {

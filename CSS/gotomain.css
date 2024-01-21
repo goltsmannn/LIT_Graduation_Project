@@ -1,0 +1,24 @@
+#gotomain {
+    box-sizing: content-box;
+    position: fixed;
+    left: 10%;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    bottom: 47%;
+    box-shadow: 0px 0px 5px 5px #2471ee;
+    background-image: url("../Images/Logo/leftbubble.png");
+    background-position: center;
+    font-family: "ANON";
+    font-size: 15px;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 1s;
+    width: 6%;
+    height: 5%;
+    border-radius: 25%;
+}
+
+#gotomain:active {
+    outline: none;
+}

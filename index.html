@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <title>Истоки VALORANT </title>
     <meta charset='utf-8'>
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="CSS/menustyles.css">
     <link rel="stylesheet" href="CSS/prelbut.css">
     <link rel="stylesheet" href="CSS/basicstyles.css">
+    <link rel="stylesheet" href="CSS/footerstyles.css">
 </head>
 
 
@@ -25,64 +27,91 @@
             <nav>
                 <ul>
                     <li id="highli">
-                        <div id="maps"class="menuparts">Карты
-                        <div id="hiddenmaps" class="notdisplayed">
-                            <ul>
-                                <li><div class="smallmenu"><a href="">Ascent</a></div></li>
-                                <li><div class="smallmenu"><a href="">Icebox</a></div></li>
-                                <li><div class="smallmenu"><a href="">Haven</a></div></li>
-                                <li><div class="smallmenu"><a href="">Split</a></div></li>
-                                <li><div class="smallmenu"><a href="">Bind</a></div></li>
-                            
-                            </ul>
-                        </div>
+                        <div id="maps" class="menuparts">Карты
+                            <div id="hiddenmaps" class="notdisplayed">
+                                <ul>
+                                    <li>
+                                        <div class="smallmenu"><a onclick="inprocess()">Ascent</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="smallmenu"><a onclick="inprocess()">Icebox</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="smallmenu"><a onclick="inprocess()">Haven</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="smallmenu"><a onclick="inprocess()">Split</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="smallmenu"><a onclick="inprocess()">Bind</a></div>
+                                    </li>
+
+                                </ul>
+                            </div>
                         </div>
                     </li>
                     <li id="highli">
                         <div id="agents" class="menuparts">Агенты
-                        <div id="hiddenagents" class="notdisplayed">
-                            <ul>
-                                <li><div class="smallmenu"><a href="agents.html#dts">Дуэлянты</a></div></li>
-                                <li><div class="smallmenu"><a href="">Специалисты</a></div></li>
-                                <li><div class="smallmenu"><a href="">Саппорты</a></div></li>
-                                <li><div class="smallmenu"><a href="">Стражи</a></div></li>
-                            </ul>
-</div>
+                            <div id="hiddenagents" class="notdisplayed">
+                                <ul>
+                                    <li>
+                                        <div class="smallmenu"><a onclick="dts()">Дуэлянты</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="smallmenu"><a onclick="spec()">Специалисты</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="smallmenu"><a onclick="sup()">Саппорты</a></div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </li>
                     <li id="highli">
-                        <div id="trainings"class="menuparts">Тренировки
-                        <div id="hiddentrainings"class="notdisplayed">
-                            <ul>
-                                <li><div class="smallmenu"><a href="trainings.html#aim">Аим</a></div></li>
-                                <li><div class="smallmenu"><a href="">Позиционка</a></div></li>
-                                <li><div class="smallmenu"><a href="">Навыки агентов</a></div></li>
-                            </ul>
+                        <div id="trainings" class="menuparts">Тренировки
+                            <div id="hiddentrainings" class="notdisplayed">
+                                <ul>
+                                    <li>
+                                        <div class="smallmenu"><a onclick="aim()">Аим</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="smallmenu"><a onclick="position()">Позиционка</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="smallmenu"><a onclick="moral()">Мораль</a></div>
+                                    </li>
+                                </ul>
 
-                        </div>
+                            </div>
                         </div>
                     </li>
                     <li id="highli">
-                        <div id="cybersport"class="menuparts">Киберспорт
-                        <div id="hiddencybersport"class="notdisplayed">
-                            <ul>
-                                <li><div class="smallmenu"><a href="">СНГ про-сцена</a></div></li>
-                                <li><div class="smallmenu"><a href="">Зарубежная про-сцена</a></div></li>
-                                <li><div class="smallmenu"><a href="">Демки игроков</a></div></li>
-                            </ul>
-                                </div>
+                        <div id="cybersport" class="menuparts">Киберспорт
+                            <div id="hiddencybersport" class="notdisplayed">
+                                <ul>
+                                    <li>
+                                        <div class="smallmenu"><a onclick="inprocess()">СНГ про-сцена</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="smallmenu"><a onclick="inprocess()">Зарубежная про-сцена</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="smallmenu"><a onclick="inprocess()">Демки игроков</a></div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </li>
 
                 </ul>
             </nav>
-        </div> 
+        </div>
     </header>
 
 
     <main>
-        <div class ="h1">
-        <h1>Все о VALORANT</h1>
+        <div class="h1">
+            <h1>Все о VALORANT</h1>
         </div>
 
 
@@ -90,7 +119,7 @@
 
 
 
-        <div id="leftpic">         
+        <div id="leftpic">
         </div>
 
         <div id="rightpic">
@@ -101,91 +130,109 @@
 
 
         <div class="article">
-        <article id="introduction1">
-            <div class="h2">
-                <h2 id="subtitle">Истоки игры</h2>
-            </div>
-            <div class="pic">
-                <img src="Images/Logo/ValorantAndLogo.jpg">
-            </div>
-            <div class="textpart">
-            <p> VALORANT - многопользовательский онлайн шутер, изданный на движке Unreal Engine. Разработка игры была
-                начата компанией Riot Games в 2014 году, но первый тизер был выпущен лишь в 2019. На канале создателей
-                вышло видео о неком "Project A"(первое название VALORANT'а) , в котором на протяжении нескольких минут
-                показываются отрывки геймплея, исполнительный продюсер игры рассказывает о некоторых его тонкостях. Riot
-                изначально ставили в приоритет честный игровой процесс и потратили большое количество времени на
-                создание античита(автозагружающейся фоновой программы, способной распознать сторонние файлы в файлах
-                игры, дающие преимущество над другими игроками), и у них это вполне получилось.</p>
-            </div>
-        </article>
+            <article id="introduction1">
+                <div class="h2">
+                    <h2 id="subtitle">Истоки игры</h2>
+                </div>
+                <div class="pic">
+                    <img src="Images/Logo/ValorantAndLogo.jpg">
+                </div>
+                <div class="textpart">
+                    <p> VALORANT - многопользовательский онлайн шутер, изданный на движке Unreal Engine. Разработка игры
+                        была
+                        начата компанией Riot Games в 2014 году, но первый тизер был выпущен лишь в 2019. На канале
+                        создателей
+                        вышло видео о неком "Project A"(первое название VALORANT'а) , в котором на протяжении нескольких
+                        минут
+                        показываются отрывки геймплея, исполнительный продюсер игры рассказывает о некоторых его
+                        тонкостях. Riot
+                        изначально ставили в приоритет честный игровой процесс и потратили большое количество времени на
+                        создание античита(автозагружающейся фоновой программы, способной распознать сторонние файлы в
+                        файлах
+                        игры, дающие преимущество над другими игроками), и у них это вполне получилось.</p>
+                </div>
+            </article>
         </div>
 
-
-
-
-
-        <div class = "article">
-        <article id="introduction2">
-            <div class="h2">
-                <h2>Официальный релиз</h2>
-            </div>
-            <div class="textpart">
-            <p> VALORANT появился в закрытом бета-доступе в марте 2020, а 2 июня был выпущен в открытый доступ
-                бесплатно, для установки игры нужно просто скачать лаунчер с сайта разработчиков. Игра не была встречена
-                восторгом в России, что впрочем не случайно: все игры с нереалистичной графикой воспринимаются крайне
-                резко СНГ комьюнити, VALORANT исключением не стал. Особенно резко его восприняли игроки умирающей CS:GO,
-                немалая часть онлайна которой в итоге перешла в новый мультяшный шутер. Первые дни после релиза онлайн
-                VALORANT на Twitch составлял более 1.5млн человек, но сейчас он редко превышает 100-150к человек.
-                Огромный ажиотаж в начале ЗБТ был вызван тем, что на стримах можно было получить себе игру и принять
-                участие в тестировании, лишь привязав свой Riot аккаунт к учетной записи Twitch.
-                Сейчас крупных турниров по игре немного, в СНГ сегменте их практически нет, поэтому практически весь
-                онлайн - подписчики зарубежных стримеров.</p>
-            </div>
-                <div class="pic1">
-                    <img src="Images/Articles/online.png">
-                </div>
-                <div class="pic2">
-                        <img src="Images/Articles/twitchlogo.png">
-                </div>
-                <div class="pic3">
-                        <img src="Images/Articles/hourswatched.png">
-                </div>
-        </article>
-        </div>
 
 
 
 
         <div class="article">
-        <article id="introduction3">
-            <div class="h2">
-                <h2>Краткий геймплей</h2>
-            </div>
-            <div class="pic4">
-                <img src="Images/Wallpapers/AgentsFive.jpeg">
+            <article id="introduction2">
+                <div class="h2">
+                    <h2>Официальный релиз</h2>
                 </div>
-            <div class="textpart1">
-                <p> Смысл основного соревновательного режима заключается в том, что команда атаки должна пройти на точки(их
-                на карте либо две, либо три) и поставить своебразную бомбу Spike, при этом не давая разминировать ее
-                соперникам в ближайшие 40 секунд. Команда защитников должна либо убить всех атакующих, либо обезвредить
-                бомбу, или в крайнем случае выжившим членам команды нужно дождаться конца раунда, тогда победа
-                засчитается им. Игра длится 12 раундов, затем команды меняются местами. После этого матч заканчивается
-                лишь тогда, когда одна из команд наберет 13 раундов, либо выиграет 2 дополнительных раунда подряд, в
-                случае если счет будет 12:12. </p>
+                <div class="textpart">
+                    <p> VALORANT появился в закрытом бета-доступе в марте 2020, а 2 июня был выпущен в открытый доступ
+                        бесплатно, для установки игры нужно просто скачать лаунчер с сайта разработчиков. Игра не была
+                        встречена
+                        восторгом в России, что впрочем не случайно: все игры с нереалистичной графикой воспринимаются
+                        крайне
+                        резко СНГ комьюнити, VALORANT исключением не стал. Особенно резко его восприняли игроки
+                        умирающей CS:GO,
+                        немалая часть онлайна которой в итоге перешла в новый мультяшный шутер. Первые дни после релиза
+                        онлайн
+                        VALORANT на Twitch составлял более 1.5млн человек, но сейчас он редко превышает 100-150к
+                        человек.
+                        Огромный ажиотаж в начале ЗБТ был вызван тем, что на стримах можно было получить себе игру и
+                        принять
+                        участие в тестировании, лишь привязав свой Riot аккаунт к учетной записи Twitch.
+                        Сейчас крупных турниров по игре немного, в СНГ сегменте их практически нет, поэтому практически
+                        весь
+                        онлайн - подписчики зарубежных стримеров.</p>
                 </div>
-            <div class="pic5">
-                <img src="Images/Articles/tab.png">
-            </div>
-            <div class="textpart2">
-            <p>
-                Агенты используют свои навыки и абсолютные умения для того, чтобы
-                упростить для себя заход на точки или их защиту, убийства или же отгораживание флангов и конкретных
-                территорий на карте. Всего в VALORANT на данный момент существует пять карт, на каждой из которых стиль
-                игры очень сильно отличается. На одной из них можно запирать агентов в западнях при помощи дверей,
-                которые управляются рычагами, на другой можно кататься на тарзанке, расстреливая соперников в полете, а
-                третья вовсе содержит три точки закладки бомбы, что вырывает ее из "классики" всех шутеров. </p>
-            </div>
-        </article>
+                <div class="pic1">
+                    <img src="Images/Articles/online.png">
+                </div>
+                <div class="pic2">
+                    <img src="Images/Articles/twitchlogo.png">
+                </div>
+                <div class="pic3">
+                    <img src="Images/Articles/hourswatched.png">
+                </div>
+            </article>
+        </div>
+
+        <div class="article">
+            <article id="introduction3">
+                <div class="h2">
+                    <h2>Краткий геймплей</h2>
+                </div>
+                <div class="pic4">
+                    <img src="Images/Wallpapers/AgentsFive.jpeg">
+                </div>
+                <div class="textpart1">
+                    <p> Смысл основного соревновательного режима заключается в том, что команда атаки должна пройти на
+                        точки(их
+                        на карте либо две, либо три) и поставить своебразную бомбу Spike, при этом не давая
+                        разминировать ее
+                        соперникам в ближайшие 40 секунд. Команда защитников должна либо убить всех атакующих, либо
+                        обезвредить
+                        бомбу, или в крайнем случае выжившим членам команды нужно дождаться конца раунда, тогда победа
+                        засчитается им. Игра длится 12 раундов, затем команды меняются местами. После этого матч
+                        заканчивается
+                        лишь тогда, когда одна из команд наберет 13 раундов, либо выиграет 2 дополнительных раунда
+                        подряд, в
+                        случае если счет будет 12:12. </p>
+                </div>
+                <div class="pic5">
+                    <img src="Images/Articles/tab.png">
+                </div>
+                <div class="textpart2">
+                    <p>
+                        Агенты используют свои навыки и абсолютные умения для того, чтобы
+                        упростить для себя заход на точки или их защиту, убийства или же отгораживание флангов и
+                        конкретных
+                        территорий на карте. Всего в VALORANT на данный момент существует пять карт, на каждой из
+                        которых стиль
+                        игры очень сильно отличается. На одной из них можно запирать агентов в западнях при помощи
+                        дверей,
+                        которые управляются рычагами, на другой можно кататься на тарзанке, расстреливая соперников в
+                        полете, а
+                        третья вовсе содержит три точки закладки бомбы, что вырывает ее из "классики" всех шутеров. </p>
+                </div>
+            </article>
         </div>
 
 
@@ -193,25 +240,21 @@
 
 
 
-</main>
+    </main>
     <footer>
-        <div id="footer">
-            <div id="vk" class="footerpart">
-                <img src="Images/Footer/vk.png" id="vklogo">
-                <button id="vklink"></button>
-            </div>
-
-            <div id="inst" class="footerpart">
-                <img src="Images/Footer/inst.png" id="instlogo">
-                <button id="instlink"></button>
-            </div>
-
-            <div id="disc" class="footerpart">
-                <img src="Images/Footer/disc.png" id="disclogo">
-                <button id="disclink"></button>
-            </div>
-
+        <div id="vk" class="footerpart" onclick="location.href='https://vk.com/3kdreyna'" target="_blank">
         </div>
+
+        <div id="inst" class="footerpart" onclick="location.href='https://www.instagram.com/goltsmannnn/'"
+            target="_blank">
+        </div>
+
+        <div id="disc" class="footerpart">
+        </div>
+
+        <div id="github" class="footerpart" onclick="location.href='https://github.com/goltsmannn'" target="_blank">
+        </div>
+        <div id="fottext">©М.М.Гольцман, 2020-2021. Все права защищены.</div>
     </footer>
 
 
@@ -221,10 +264,11 @@
 
 
 
-    
+
     <script src="JavaScript/script.js"></script>
     <script src="JavaScript/preloader.js"></script>
     <script src="JavaScript/button.js"></script>
+    <script src="JavaScript/gotomain.js"></script>
 </body>
 
 </html>

@@ -1,2 +1,78 @@
+#reynac {
+    width: 48%;
+    margin-right: 3.5%;
+}
 
+#razec {
+    width: 48%;
+}
 
+.article {
+    margin-bottom: 15% !important;
+}
+
+.bigimg {
+    width: 33%;
+}
+
+body main #prepare {
+    margin-bottom: 5% !important;
+    margin-top: 5% !important;
+}
+
+#intr {
+    margin-bottom: 0% !important;
+}
+
+#duel div {
+    margin-bottom: 45%;
+    height: 30%;
+}
+
+#p1 img {
+    float: right;
+    width: 55%;
+}
+
+#p1 p {
+    width: 44.5%;
+    float: left;
+    margin-top: 3%;
+
+}
+
+#p2 p {
+    width: 48%;
+    float: right;
+    margin-top: 1%;
+}
+
+#p2 img {
+    float: left;
+    width: 48%;
+    margin-top: 0px;
+
+}
+
+#specialists img {
+    display: inline-block;
+}
+
+#cy {
+    width: 49%;
+    float: left;
+}
+
+#so {
+    width: 49%;
+    float: right;
+}
+
+.smallimg {
+    display: inline-block;
+    width: 48%;
+}
+
+#sup {
+    margin-bottom: 3% !important;
+}
